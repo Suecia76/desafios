@@ -1,11 +1,16 @@
 {
   "name": "desafio-2",
   "version": "1.0.0",
-  "main": "./index.cjs",
+  "main": "./import.mjs",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node import.mjs"
   },
   "author": "Santiago",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
